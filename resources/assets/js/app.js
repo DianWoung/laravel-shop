@@ -16,7 +16,8 @@ window.Vue = require('vue');
  */
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
-
+require('./components/SelectDistrict');
+Vue.component('user-addresses-create-and-edit', require('./components/UserAddressesCreateAndEdit'));
 const app = new Vue({
     el: '#app'
 });
