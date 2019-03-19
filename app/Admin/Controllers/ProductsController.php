@@ -124,7 +124,6 @@ class ProductsController extends Controller
 
         // 创建一个输入框，第一个参数 title 是模型的字段名，第二个参数是该字段描述
         $form->text('title', '商品名称')->rules('required');
-
         // 创建一个选择图片的框
         $form->image('image', '封面图片')->rules('required|image');
 
