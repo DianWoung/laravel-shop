@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         //填充laravel-admin数据
-        //$this->call(AdminTablesSeeder::class);
+        $this->call(AdminTablesSeeder::class);
         // $this->call(UsersTableSeeder::class);
     }
 }
