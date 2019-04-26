@@ -8970,3 +8970,10 @@ body {
   border-radius: 0px;
 }
 
+.orders-review-show-page .payment-buttons,
+.orders-review-show-page .receive-button,
+.orders-review-show-page .refund-button {
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
