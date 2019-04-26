@@ -47306,7 +47306,7 @@ if (token) {
 //     cluster: 'mt1',
 //     encrypted: true
 // });
-__webpack_require__("./node_modules/sweetalert/dist/sweetalert.min.js");
+__webpack_require__("./node_modules/sweetalert/dist/sweetalert2.min.js");
 
 /***/ }),
 
